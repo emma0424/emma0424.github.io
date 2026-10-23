@@ -164,13 +164,13 @@ a {
 
 .hero-image {
     justify-self: end;
-    width: min(100%, 360px);
+    width: min(100%, 280px);
 }
 
 .hero-image img {
     width: 100%;
-    aspect-ratio: 4 / 5;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     filter: grayscale(100%);
     transition: filter 0.5s ease, transform 0.5s ease;
 }
@@ -659,7 +659,7 @@ a {
 
     .hero-image {
         justify-self: start;
-        width: 280px;
+        width: 250px;
     }
 
     .section {
@@ -709,8 +709,8 @@ a {
     }
 
     .hero-image {
-        width: 70%;
-        max-width: 280px;
+        width: 64%;
+        max-width: 250px;
     }
 
     .hero-links {
